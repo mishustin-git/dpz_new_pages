@@ -6,8 +6,8 @@
     background:url("../img/sun-header.png") no-repeat center;
     width: 1802px;
     height: 667px;
-    left: -71px;
-    top: 147px;
+    left: -73px;
+    top: -150px;
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
     top: 32px;
@@ -190,7 +190,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     margin-top: 69px;
 }
 .legenda-original-advantage p{
@@ -209,6 +209,110 @@
     position: absolute;
     top: -26px;
     right: -84px;
+}
+.brand-wrapper.brand-legenda-original .brand-3-screen{
+    height: 888px;
+    background: radial-gradient(58.68% 429.43% at 54.66% 49.92%, #423928 0%, #000000 100%);
+}
+.brand-wrapper.brand-legenda .brand-3-screen .our-text{
+    margin: 0;
+    padding: 0;
+    margin-top: 103px;
+    max-width: 544px;
+}
+.title-legend-original{
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: none !important;
+    display: block;
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 19px;
+}
+.title-legend-original-ul,.title-legend-original-li{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    text-align: left;
+}
+.title-legend-original-ul{
+    padding-left: 23px;
+    margin-bottom: 35px;
+}
+.title-legend-original-li{
+    padding-left: 23px;
+}
+.brand-3-screen-back-img{
+    position: absolute;
+    top: -128px;
+    left: 120px;
+    z-index: -4;
+}
+.size{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.size-name{
+    margin-left: 20px;
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 23px;
+    margin-top: 41px;
+}
+.volume{
+    margin-right: 34px;
+}
+.volume div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.volume div:first-child{
+    margin-bottom: 18px;
+    padding-top: 3px;
+}
+.covers{
+    margin-top: 4px;
+}
+.brand-wrapper.brand-legenda-original + footer{
+    z-index: 10;
 }
 @media (max-width: 1199px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
