@@ -154,11 +154,21 @@
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .img-wrap{
     position: absolute;
+    left: 864px;
+    top: 241.25px;
 }
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .img-wrap img.bottle{
+    width: 207px;
 
+}
 .factory{
     position: absolute;
     display: block;
     top: 358px;
     left: 471px;
 }
+@media (max-width: 1199px) {
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
+        left: 400px;
+    } 
+    }
