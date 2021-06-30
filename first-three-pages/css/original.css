@@ -5,9 +5,9 @@
 .brand-wrapper.brand-legenda-original .brand-1-screen .container::before{
     background:url("../img/sun-header.png") no-repeat center;
     width: 1802px;
-    height: 1802px;
+    height: 667px;
     left: -71px;
-    top: -419px;
+    top: 147px;
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
     top: 32px;
@@ -166,6 +166,49 @@
     display: block;
     top: 358px;
     left: 471px;
+}
+.brand-wrapper.brand-legenda-original .brand-2-screen{
+    background:#F8F5EF url("../img/brand-2-screen.png");
+    height: 424px;
+}
+.brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(1){
+    left: 444px !important;
+    top: 55px !important;
+}
+.brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(2){
+    left: 366px !important;
+    bottom: 57px !important;
+}
+.legenda-original-advantage{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 69px;
+}
+.legenda-original-advantage p{
+    max-width: 467px;
+    margin-right: 33px;
+}
+.legenda-original-advantage p:last-child{
+    margin-top: 15px;
+}
+.hop-left{
+    position: absolute;
+    left: 0px;
+    top: -37px;
+}
+.hop-right{
+    position: absolute;
+    top: -26px;
+    right: -84px;
 }
 @media (max-width: 1199px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
