@@ -1,0 +1,164 @@
+.brand-wrapper.brand-legenda-original .brand-1-screen{
+    background:url("../img/background-legenda-original.png") no-repeat center;
+    height: 815px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .container::before{
+    background:url("../img/sun-header.png") no-repeat center;
+    width: 1802px;
+    height: 1802px;
+    left: -71px;
+    top: -419px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
+    top: 32px;
+    left: -337px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text{
+    left: 152px;
+    top: 180px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-1{
+    transform: none;
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 100px;
+    top: 199px;
+    color: #FFFFFF;
+    top: 188px;
+    left: 124px;
+    display: block;
+    background: radial-gradient(50% 594.22% at 50% 50%, #CA8B12 0%, #C73000 100%);
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    width: 365px;
+    height: 114px;
+    padding-top: 12px;
+    z-index: -1;
+    padding-left: 29px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text > span{
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 140px;
+    line-height: 189px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.3;
+    transform: rotate(-90deg);
+
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .not-bg-text{
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 95px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    left: 315px;
+    top: 251px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content .table-flex .tr + .tr{
+    margin-top: 23px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content .table-flex .tr .td:nth-child(1){
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content .table-flex .tr .td:nth-child(2){
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: left;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content{
+    margin: 0;
+    padding-left: 23px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
+    left: 301px;
+    margin-bottom: 25px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    /* width: 220px;
+    height: 233px; */
+    width: 238px;
+    height: 252px;
+    background: url("../img/info-border-2.png") no-repeat center;
+        background-size: auto;
+    background-size: contain;
+    z-index: -1;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 73px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    text-transform:none;
+    margin: 0;
+    padding: 0;
+    top: 378px;
+    left: 506px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 73px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    text-transform:none;
+    margin: 0;
+    padding: 0;
+    top: 411px;
+    left: 572px;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .img-wrap{
+    position: absolute;
+}
+
+.factory{
+    position: absolute;
+    display: block;
+    top: 358px;
+    left: 471px;
+}

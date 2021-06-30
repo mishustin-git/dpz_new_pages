@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'WhitbyBrewers';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhitbyBrewers.svg#WhitbyBrewers") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Market Deco [RUS by Daymarius]';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MarketDecoRUSbyDaymarius.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MarketDecoRUSbyDaymarius.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MarketDecoRUSbyDaymarius.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MarketDecoRUSbyDaymarius.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/font/MarketDecoRUSbyDaymarius.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MarketDecoRUSbyDaymarius.svg#MarketDecoRUSbyDaymarius") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Minion Pro';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/MinionPro-Regular.svg#MinionPro-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'DINCondensedC';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/DINCondensedC.svg#DINCondensedC") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Conv_CocaColaRegular';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/CocaColaRegular.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/CocaColaRegular.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/CocaColaRegular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'DymaxionScriptC';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Dymaxionscript.svg#Dymaxionscript") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'White Rose Deco';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/WhiteRoseDeco.svg#WhiteRoseDeco") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Proxima Nova Light';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+    font-weight: 300;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Gilroy Light';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/Gilroy-Light.svg#Gilroy-Light") format("svg");
+    font-weight: 300;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Proxima Nova Extra Bold';
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.eot");
+    src: url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.woff2") format("woff2"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.woff") format("woff"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.ttf") format("truetype"), url("https://dpzcompany.com/wp-content/themes/beer/css/fonts/font/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+    font-weight: 800;
+    font-style: normal; }
