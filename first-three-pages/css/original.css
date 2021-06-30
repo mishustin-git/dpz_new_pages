@@ -341,8 +341,18 @@
     left: 1262px !important;
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap img:nth-child(4){
+    top: 340px !important;
     left: 1252px !important;
-    top: -352px !important;
+    /* top: -352px !important; */
+}
+footer .flex .footer-contact li.address::after{
+    background-image: url("https://dpzcompany.com/wp-content/themes/beer/img/footer-contact-1.png") !important;
+}
+footer .flex .footer-contact li.phone::after{
+    background-image: url("https://dpzcompany.com/wp-content/themes/beer/img/footer-contact-2.png") !important;
+}
+footer .flex .footer-contact li.email::after{
+    background-image: url("https://dpzcompany.com/wp-content/themes/beer/img/footer-contact-4.png");
 }
 @media (max-width: 1199px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
