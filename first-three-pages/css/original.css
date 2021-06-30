@@ -5,9 +5,9 @@
 .brand-wrapper.brand-legenda-original .brand-1-screen .container::before{
     background:url("../img/sun-header.png") no-repeat center;
     width: 1802px;
-    height: 667px;
+    height: 1200px;
     left: -73px;
-    top: -150px;
+    top: -416px;
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
     top: 32px;
@@ -313,6 +313,36 @@
 }
 .brand-wrapper.brand-legenda-original + footer{
     z-index: 10;
+    background: #5b5525;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -moz-transform: translate(-50%, -50%) !important;
+    -o-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+    width: 1170px;
+    height: 100%;
+    z-index: -1;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap img:nth-child(1){
+    left: -378px !important;
+    top: 188px !important;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap img:nth-child(2){
+    left: -234px !important;
+    top: 459px !important;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap img:nth-child(3){
+    top: 32px !important;
+    left: 1262px !important;
+}
+.brand-wrapper.brand-legenda-original .brand-1-screen .prlx-wrap img:nth-child(4){
+    left: 1252px !important;
+    top: -352px !important;
 }
 @media (max-width: 1199px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
