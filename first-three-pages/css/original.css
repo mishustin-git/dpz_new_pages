@@ -600,8 +600,6 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-1-screen-logo
     {
-        /* top:380px; */
-        /* left: 190px; */
         left: 255px;
     }
     .factory{
@@ -618,14 +616,63 @@ footer .flex .footer-contact li.email::after{
         left: -143px;
         margin-top: 0 !important;
     }
+    .legenda-original-advantage{
+        width: 100%;
+        font-size: 18px;
+        align-items: flex-end;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap{
+        display: block !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(1){
+        left: 25px !important;
+        z-index: 1;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(2){
+        left: 88px !important;
+        z-index: 1;
+    }
+    .hop-left{
+        z-index: -3;
+    }
+    .legenda-original-advantage p{
+        padding-right: 25px;
+    }
+    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper{
+        margin-bottom: -55px;
+    }
+    .brand-3-screen-back-img{
+        left: -177px;
+        top: -32px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen{
+        height: 1007px;
+    }
 }
 @media (max-width: 660px){
+    .legenda-original-advantage{
+        max-width: 450px;
+        margin-left: auto;
+        /* font-size: 16px; */
+    }
     .brand-1-screen-logo
     {
         left: 210px;
     }
 }
 @media (max-width: 580px){
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap{
+        display: none !important;
+    }
+    .legenda-original-advantage{
+        margin: 0 auto;
+        padding: 0;
+        max-width: 400px;
+    }
+    .legenda-original-advantage p{
+        margin: 0;
+        padding: 0;
+    }
     .factory{
         display: none;
     }
@@ -650,6 +697,12 @@ footer .flex .footer-contact li.email::after{
         left: auto !important;
         right: -90px !important;
     }
+    .title-legend-original{
+        font-size: 65px;
+    }
+    #parallax-img-original-b3{
+        display: none;
+    }
 }
 @media (max-width: 479px){
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper{
@@ -670,6 +723,13 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-legenda .brand-1-screen .bottle-wrapper .info-wrap .table-flex{
         margin-left: -20px;
     }
+    .brand-3-screen-back-img{
+        top: 247px;
+        left: -373px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen{
+        height: 1281px;
+    }
 }
 @media (max-width: 479px) {
     .factory{
@@ -685,6 +745,11 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
         right: -80px !important;
+    }
+}
+@media (max-width: 420px){
+    .legenda-original-advantage{
+        max-width: 300px;
     }
 }
 
