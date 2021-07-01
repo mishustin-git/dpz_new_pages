@@ -6,8 +6,14 @@
     background:url("../img/sun-header.png") no-repeat center;
     width: 1802px;
     height: 1200px;
-    left: -73px;
-    top: -416px;
+    left: -192px;
+    top: -387px;
+}
+.brand-1-screen-logo{
+    position: absolute;
+    left: 681px;
+    top: 265px;
+    z-index: 2;
 }
 .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
     top: 32px;
@@ -383,6 +389,259 @@ footer .flex .footer-contact li.email::after{
 }
 @media (max-width: 1199px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap {
-        left: 400px;
-    } 
+        left: 350px;
     }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .img-wrap img.bottle{
+        width: 163px;
+        height: auto;   
+    }
+    .hop-right{
+        display: none;
+    }
+    .beer{
+        width: 200px;
+    }
+    .factory{
+        top: 400px;
+        left: 421px;
+        width: 460px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+        left: 456px;
+        font-size: 45px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+        left: 503px;
+        font-size: 45px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .container::before{
+        width: 1602px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-1{
+        padding-right: 30px;
+        left: 139px;
+        padding-left: 18px;
+        width: 267px;
+        padding-top: 10px;
+        height: 108px;
+        font-size: 65px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -258px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 120px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .not-bg-text{
+        left: 287px;
+        font-size: 59px;
+    }
+    .brand-1-screen-logo{
+        left: 595px;
+        top: 346px;
+    }
+    .brand-1-screen-logo img{
+        width: 200px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(1){
+        left: 344px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(2){
+        left: 266px !important;
+    }
+}
+@media (max-width: 991px) {
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+        left: 406px;
+        font-size: 45px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+        left: 453px;
+        font-size: 45px;
+    }
+    .brand-1-screen-logo{
+        left: 526px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .img-wrap img.bottle{
+        display: none;
+    }
+    .factory{
+        display: none;
+    }
+    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper .dop-text .beer{
+        width: 150px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 80px
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -87px;
+        top: 91px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content .table-flex .tr .td{
+        font-size: 16px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content::before{
+        width: 190px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .not-bg-text{
+        left: 257px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-1{
+        width: 170px;
+        font-size: 42px;
+        line-height: initial;
+        height: 70px;
+        left: 107px;
+        top: 179px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content{
+        padding-left: 0;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 315px;
+        top: 34px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen{
+        height: 751px;
+    }
+    .legenda-original-advantage{
+        align-items: flex-start;
+        margin-left: 25px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(1){
+        left: 644px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-2-screen .prlx-wrap > img:nth-child(2){
+        left: 544px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen .our-text{
+        margin-top: 50px;
+    }
+    /* .brand-wrapper.brand-legenda-original .brand-3-screen{
+        height: 1088px;
+    } */
+    .brand-3-screen-back-img{
+        /* top: 50px; */
+        left: -100px;
+    }
+    .title-legend-original-ul{
+        padding-left: 0;
+    }
+    .title-legend-original-li{
+        padding-left: 0;
+    }
+    .options{
+        padding-left: 0;
+    }
+    /* .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(1){
+        top: 393px !important;
+    }
+     .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(2){
+        top: 600px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(3){
+        top: 727px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(4){
+        top: 449px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(5){
+        top: 630px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(6){
+        top: 476px !important;
+    } */
+}
+@media (max-width: 767px) {
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
+        top: -46px;
+        left: -10px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .not-bg-text{
+        top: -113px;
+        left: -4px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text{
+        top: -155px;
+        margin-top: 0px;
+        left: 0px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text{
+        top: -155px;
+        margin-top: 0px;
+        left: 0px;
+        display: grid;
+        grid-template-rows: 100% 100% 100% 100%;
+        grid-template-columns: 25% 50%;
+    }
+    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper .dop-text .beer{
+        grid-row: 1/4;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 42px;
+        line-height: initial;
+        height: 60px;
+        left: 107px;
+        top: 179px;
+        padding-top: 5px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+        position: absolute !important;
+        top: 140px !important;
+        left: auto !important;
+        right: -90px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+        position: absolute !important;
+        top: 180px !important;
+        left: auto !important;
+        right: -150px !important;
+    }
+    .brand-1-screen-logo
+    {
+        /* left: 150px; */
+        left: auto;
+        right: 290px;
+    }
+    .factory{
+        display: block;
+        z-index: -1;
+        top: 301px;
+        left: auto;
+        right: -20px;
+    }
+}
+@media (max-width: 590px) {
+    .brand-1-screen-logo
+    {
+        /* left: 150px; */
+        left: auto;
+        right: 190px;
+    }
+    /* .factory{
+        display: block;
+        z-index: -1;
+        top: 301px;
+        left: auto;
+        right: -20px;
+    } */
+}
+@media (max-width: 479px) {
+    .factory{
+        display: none;
+    }
+    .brand-1-screen-logo
+    {
+        /* display: none; */
+        right: 0px;
+        top: 517px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+        right: -30px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+        right: -80px !important;
+    }
+}
+
