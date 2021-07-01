@@ -821,4 +821,75 @@ footer .flex .footer-contact li.email::after{
     top: 312px;
     left: 643px;
 }
+.brand-wrapper.brand-cup-light .brand-2-screen{
+    background:radial-gradient(60.57% 552.04% at 39.97% 53.3%, #FFD480 0%, #8F754D 100%);
+    background: url("../img/brand-2-screen-cup-light.png");
+    height: 503px;
+}
+.brand-wrapper.brand-cup-light .brand-2-screen .prlx-wrap > img:nth-child(1){
+    left: 40px !important;
+    top: 234px !important;
+}
+.brand-wrapper.brand-cup-light .brand-2-screen .prlx-wrap > img:nth-child(2){
+    left: 215px !important;
+    top: 340px !important;
+}
+.cup-light-advantage{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 100%;
+    margin-left: -22px;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cup-light-advantage p{
+    max-width: 643px;
+}
+.cup-light-advantage p:first-child{
+    margin-bottom: 59px;
+}
+.brand-wrapper.brand-cup-light .brand-3-screen{
+    background: url("../img/brand-3-screen-cup-light.png");
+    height: 803px;
+    margin-top: 0px;
+    margin-bottom: -12px;
+}
+.brand-wrapper.brand-cup-light .brand-3-screen .our .text-wrap {
+    padding: 0;
+}
+.brand-wrapper.brand-cup-light .brand-3-screen .our-text{
+    text-align: left;
+    margin-top: 91px;
+    line-height: 1.06;
+    max-width: 630px
+}
+.title-cup-light{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
 
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.brand-wrapper.brand-cup-light .brand-3-screen .prlx-wrap img:nth-child(1){
+    top: 421px !important;
+    left: 392px !important;
+}
+.brand-wrapper.brand-cup-light .brand-3-screen .our .text-wrap .brand-3-screen-back-img{
+    top: 421px;
+    left: 19px;
+}
+.brand-wrapper.brand-cup-light + footer{
+    background:#224d2f;
+}
