@@ -553,7 +553,7 @@ footer .flex .footer-contact li.email::after{
         top: 476px !important;
     } */
 }
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
         top: -46px;
         left: -10px;
@@ -600,43 +600,86 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-1-screen-logo
     {
-        /* left: 150px; */
-        left: auto;
-        right: 290px;
+        /* top:380px; */
+        /* left: 190px; */
+        left: 255px;
     }
     .factory{
         display: block;
-        z-index: -1;
-        top: 301px;
-        left: auto;
-        right: -20px;
+        top: 300px;
+        left: 321px;
+    }
+    .brand-1-screen-logo img{
+        width:150px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper{
+        position: absolute;
+        top: 136px;
+        left: -143px;
+        margin-top: 0 !important;
     }
 }
-@media (max-width: 590px) {
+@media (max-width: 660px){
     .brand-1-screen-logo
     {
-        /* left: 150px; */
-        left: auto;
-        right: 190px;
+        left: 210px;
     }
-    /* .factory{
-        display: block;
-        z-index: -1;
-        top: 301px;
-        left: auto;
-        right: -20px;
-    } */
 }
-@media (max-width: 479px) {
+@media (max-width: 580px){
     .factory{
         display: none;
     }
     .brand-1-screen-logo
     {
-        /* display: none; */
-        right: 0px;
-        top: 517px;
+        top: 400px;
+        left: auto;
+        right: 50px;
     }
+    .brand-1-screen-logo img{
+        width: 100px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
+        position: absolute !important;
+        top: 50px !important;
+        left: auto !important;
+        right: -30px !important;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-3{
+        position: absolute !important;
+        top: 80px !important;
+        left: auto !important;
+        right: -90px !important;
+    }
+}
+@media (max-width: 479px){
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper{
+        top: 241px;
+    }
+    /* .brand-1-screen-logo
+    {
+        top:180px;
+        left:0px;
+    }
+    .brand-1-screen-logo img{
+        width: 100px;
+    } */
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content::before{
+        width: 172px;
+        left: 41px;
+    }
+    .brand-wrapper.brand-legenda .brand-1-screen .bottle-wrapper .info-wrap .table-flex{
+        margin-left: -20px;
+    }
+}
+@media (max-width: 479px) {
+    .factory{
+        display: none;
+    }
+    /* .brand-1-screen-logo
+    {
+        display: none;
+        top: 416px;
+    } */
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
         right: -30px !important;
     }
