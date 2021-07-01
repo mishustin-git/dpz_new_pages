@@ -752,4 +752,73 @@ footer .flex .footer-contact li.email::after{
         max-width: 300px;
     }
 }
+/* cup-of-light */
+.brand-wrapper.brand-cup-light .brand-1-screen{
+    background: url("../img/background-cup-light.png") no-repeat center;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .bg-text{
+    left: -325px;
+    top: 37px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
+    left: 83px;
+    top: 196px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .not-bg-text{
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 138px;
+    line-height: 187px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* mix-blend-mode: soft-light; */
+    opacity: 0.3;
+    left: 269px;
+    top: 220px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1{
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 168px;
+    line-height: 223px;
+    color: #FFFFFF;
+    background:none;
+    box-shadow:none;
+    top: 210px;
+    left: 210px;
+    line-height: inherit;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1::after{
+    content: url("../img/cup-light-underline.png");
+    margin-left: -129px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
+    top: 174px;
+    left: 775px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .container::before{
+    display: none;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .bottle-wrapper .img-wrap{
+    position: absolute;
+    left: 573px;
+    top: 422px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .bottle-wrapper .img-wrap img.bottle{
+    width: auto;
+    height: 173px;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-2{
+    display: none;
+}
+.brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-3{
+    display: none;
+}
+.ears{
+    position: absolute;
+    top: 312px;
+    left: 643px;
+}
 
