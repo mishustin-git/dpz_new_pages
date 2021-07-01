@@ -220,7 +220,7 @@
     height: 888px;
     background: radial-gradient(58.68% 429.43% at 54.66% 49.92%, #423928 0%, #000000 100%);
 }
-.brand-wrapper.brand-legenda .brand-3-screen .our-text{
+.brand-wrapper.brand-legenda-original .brand-3-screen .our-text{
     margin: 0;
     padding: 0;
     margin-top: 103px;
@@ -468,7 +468,7 @@ footer .flex .footer-contact li.email::after{
     .factory{
         display: none;
     }
-    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper .dop-text .beer{
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .beer{
         width: 150px;
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text > span{
@@ -575,7 +575,7 @@ footer .flex .footer-contact li.email::after{
         grid-template-rows: 100% 100% 100% 100%;
         grid-template-columns: 25% 50%;
     }
-    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper .dop-text .beer{
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .beer{
         grid-row: 1/4;
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-1{
@@ -638,7 +638,7 @@ footer .flex .footer-contact li.email::after{
     .legenda-original-advantage p{
         padding-right: 25px;
     }
-    .brand-wrapper.brand-legenda .brand-1-screen .text-wrapper{
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper{
         margin-bottom: -55px;
     }
     .brand-3-screen-back-img{
@@ -720,7 +720,7 @@ footer .flex .footer-contact li.email::after{
         width: 172px;
         left: 41px;
     }
-    .brand-wrapper.brand-legenda .brand-1-screen .bottle-wrapper .info-wrap .table-flex{
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .table-flex{
         margin-left: -20px;
     }
     .brand-3-screen-back-img{
@@ -791,8 +791,13 @@ footer .flex .footer-contact li.email::after{
     line-height: inherit;
 }
 .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1::after{
-    content: url("../img/cup-light-underline.png");
+    content: '';
+    background-image: url("../img/cup-light-underline.png");
+    background-size: 693px 160px;
     margin-left: -129px;
+    display: inline-block;
+    width: 693px; 
+    height: 160px;
 }
 .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
     top: 174px;
@@ -856,10 +861,11 @@ footer .flex .footer-contact li.email::after{
     margin-bottom: 59px;
 }
 .brand-wrapper.brand-cup-light .brand-3-screen{
-    background: url("../img/brand-3-screen-cup-light.png");
+    background: url("../img/brand-3-screen-cup-light.png") no-repeat;
     height: 803px;
     margin-top: 0px;
     margin-bottom: -12px;
+    background-position: center center;
 }
 .brand-wrapper.brand-cup-light .brand-3-screen .our .text-wrap {
     padding: 0;
@@ -893,3 +899,134 @@ footer .flex .footer-contact li.email::after{
 .brand-wrapper.brand-cup-light + footer{
     background:#224d2f;
 }
+.brand-wrapper.brand-cup-light .brand-2-screen{
+    margin-bottom: -6px;
+}
+@media (max-width: 1199px) {
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo img{
+        width: 300px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -260px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
+        left: 128px;
+    }
+    .ears{
+        left: 500px;
+    }
+    .cup-light-advantage{
+        font-size: 18px;
+    }
+    .brand-wrapper.brand-cup-light .brand-3-screen .our-text{
+        max-width: 550px;
+        padding-left: 30px;
+    }
+    .title-cup-light{
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -100px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .not-bg-text{
+        font-size: 100px;
+        left: 220px;
+        top: 150px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 120px;
+        left: 100px;
+        top: 125px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        background-size: 500px 160px;
+        margin-left: -100px;
+        width: 500px;
+        height: 160px;
+    }
+    .ears{
+        left: 300px;
+        top: 153px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
+        left: 575px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo img{
+        width: 250px;
+    }
+    .cup-light-advantage{
+        margin-top: -10px;
+    }
+}
+ @media (max-width: 767px) {
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .bg-text{
+        transform: inherit;
+        left: 100px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
+        top: -196px;
+        left: 1px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 369px;
+        top: -5px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .bg-text{
+        left: 0px;
+        top: -59px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .not-bg-text{
+        left: 0px;
+        top: -158px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo img{
+        width: 150px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
+        left: 290px;
+        top: 400px;
+    }
+    .ears{
+        top: 21px;
+        left: 335px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 90px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        background-size: 300px 160px;
+        margin-left: -6px;
+        width: 300px;
+        height: 160px;
+        margin-top: -35px;
+    }
+ }
+ @media (max-width: 420px) {
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 60px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .not-bg-text{
+        font-size: 70px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 75px;
+        margin-left: 25px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
+        display: none;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        background-size: 200px 160px;
+        margin-left:0px;
+        width: 200px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 316px;
+        top: -57px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
+        left: -15px;
+    }
+ }
