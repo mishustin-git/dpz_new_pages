@@ -1044,3 +1044,169 @@ footer .flex .footer-contact li.email::after{
         left: -15px;
     }
  }
+ /* potable water */
+ .page-template-brand-potable-water .brand-page header{
+    height: 191px;
+    top: 0px;
+    background: radial-gradient(70.68% 6028.78% at 40.34% 29.32%, #3955A2 0%, #031649 100%);
+ }
+ .page-template-brand-potable-water .brand-page header.scroll{
+    height: 50px !important;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen{
+    height: 1005px;
+    background-image: url("../img/potable-water-header-brand-1-screen-background.png");
+    background-position: center center;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text > span{
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 124px;
+    line-height: 168px;
+    text-transform: uppercase;
+    color: #04174B;
+    opacity: 0.3;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text{
+    left: -392px;
+    top: 135px;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+    left: -376px;
+    top: 166px;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
+    font-family: "PartnerCondensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 122px;
+    text-transform: uppercase;
+    color: #04174B;
+    opacity: 0.3;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
+    left: 255px;
+    top: 272px;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1{
+    font-family: "Coca-Cola Regular rus-lat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 161px;
+    color: #A7B4D6;
+    left: 645px;
+    top: 306px;
+    width: 845px;
+ }
+ .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1::after{
+    content: '';
+    background-image: url("../img/potable-water-underline.png");
+    background-size: 799px 143px;
+    margin-left: 0;
+    margin-top: 15px;
+    display: inline-block;
+    width: 799px; 
+    height: 143px;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .potable-water-description{
+    display: block;
+    position: absolute;
+    top: 0;
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #06194D;
+    max-width: 670px;
+    top: 577px;
+    left: 876px;
+}
+.brand-wrapper.brand-potable-water .brand-2-screen{
+    height: 600px;
+    background: #FFFFFF;
+}
+.potable-water-advantage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -144px;
+}
+.potable-water-advantage .text{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #06194D;
+    margin-top: 25px;
+    margin-right: -17px;
+}
+.potable-water-advantage img{
+    margin-right: -84px;
+    margin-top: -29px;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap img:nth-child(1){
+    left: 516px !important;
+    top: -70px !important;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap img:nth-child(2){
+    left: -385px !important;
+    top: 688px !important;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap img:nth-child(3){
+    top: 802px !important;
+    left: -13px !important;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap img:nth-child(4){
+    top: 771px !important;
+    left: 1419px !important;
+}
+.brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap img:nth-child(5){
+    top: 700px !important;
+    left: 1350px !important;
+}
+.brand-wrapper.brand-potable-water .brand-2-screen .prlx-wrap > img:nth-child(1){
+    left: -384px !important;
+    top: 354px !important;
+}
+.brand-wrapper.brand-potable-water .brand-2-screen .prlx-wrap > img:nth-child(2){
+    left: -169px !important;
+    top: 469px !important;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen{
+    height: 803px;
+    background-image: url("../img/potable-water-b3-background.png");
+    background-position: center center;
+}
+.title-potable-water{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #06194D;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+    margin-top: 248px;
+    margin-left: 571px;
+    display: block;
+    position: relative;
+}
+.title-potable-water-background{
+    position: absolute;
+    top: -579px;
+    z-index: -1;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .our-text .title-potable-water p:first-child{
+    margin-bottom: 43px;
+}
+.brand-wrapper.brand-potable-water + footer{
+    background: radial-gradient(70.68% 6028.78% at 40.34% 29.32%, #3955A2 0%, #031649 100%);
+}
