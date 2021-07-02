@@ -1231,7 +1231,30 @@ footer .flex .footer-contact li.email::after{
         padding-left: 103px;
         padding-right: 24px
     }
-    
+    .brand-wrapper.brand-potable-water .brand-2-screen{
+        height: 450px;
+    }
+    .potable-water-advantage{
+        margin-top: -64px;
+    }
+    .potable-water-advantage .text{
+        padding-left: 32px;
+    }
+    .potable-water-advantage img{
+        padding-right: 0px;
+        margin-top: -51px;
+        margin-right: -21px;
+        width: 470px;
+    }
+    #parallax-img-2{
+        display: none;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+        top: 0;
+    }
+    .title-potable-water-background{
+        top: -590px;
+    }
 }
 @media (max-width: 991px) {
     .page-template-brand-potable-water .brand-page header{
@@ -1281,8 +1304,26 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-potable-water .brand-1-screen{
         margin-top: -240px;
     }
+    .potable-water-advantage .text{
+        font-size: 18px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen{
+        height: 900px;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+        margin-left: 300px;
+    }
+    .title-potable-water{
+        font-size: 18px;
+    }
+    .title-potable-water-background{
+        left: -150px;
+    }
 }
 @media (max-width: 767px) {
+    .title-potable-water{
+        font-size: 18px;
+    }
     .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text{
         left: 0px;
         top: 210px;
@@ -1312,8 +1353,35 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .beer{
         margin-top: -20px;
     }
+    .potable-water-advantage{
+        margin-top: 110px;
+    }
+    .potable-water-advantage .text{
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    .potable-water-advantage img{
+        width: 270px;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+        max-width: 350px;
+        margin-left: 150px;
+    }
+    .title-potable-water-background{
+        left: -450px;
+    }
 }
 @media (max-width: 540px) {
+    .title-potable-water{
+        font-size: 16px;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+        max-width: 300;
+        margin-left: 0;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen{
+        height: 603px;
+    }
     .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
         left: -342px;
     }
@@ -1338,5 +1406,17 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
         font-size: 60px;
+    }
+    .potable-water-advantage{
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .potable-water-advantage .text{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
     }
 }
