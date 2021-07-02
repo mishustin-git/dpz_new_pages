@@ -518,11 +518,7 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-legenda-original .brand-3-screen .our-text{
         margin-top: 50px;
     }
-    /* .brand-wrapper.brand-legenda-original .brand-3-screen{
-        height: 1088px;
-    } */
     .brand-3-screen-back-img{
-        /* top: 50px; */
         left: -100px;
     }
     .title-legend-original-ul{
@@ -534,24 +530,6 @@ footer .flex .footer-contact li.email::after{
     .options{
         padding-left: 0;
     }
-    /* .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(1){
-        top: 393px !important;
-    }
-     .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(2){
-        top: 600px !important;
-    }
-    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(3){
-        top: 727px !important;
-    }
-    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(4){
-        top: 449px !important;
-    }
-    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(5){
-        top: 630px !important;
-    }
-    .brand-wrapper.brand-legenda-original .brand-3-screen .prlx-wrap img:nth-child(6){
-        top: 476px !important;
-    } */
 }
  @media (max-width: 767px) {
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper h1 .bg-text{
@@ -708,14 +686,6 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper{
         top: 241px;
     }
-    /* .brand-1-screen-logo
-    {
-        top:180px;
-        left:0px;
-    }
-    .brand-1-screen-logo img{
-        width: 100px;
-    } */
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap .content::before{
         width: 172px;
         left: 41px;
@@ -735,11 +705,6 @@ footer .flex .footer-contact li.email::after{
     .factory{
         display: none;
     }
-    /* .brand-1-screen-logo
-    {
-        display: none;
-        top: 416px;
-    } */
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .span-2{
         right: -30px !important;
     }
@@ -772,7 +737,6 @@ footer .flex .footer-contact li.email::after{
     line-height: 187px;
     text-transform: uppercase;
     color: #FFFFFF;
-    /* mix-blend-mode: soft-light; */
     opacity: 0.3;
     left: 269px;
     top: 220px;
@@ -1198,10 +1162,11 @@ footer .flex .footer-contact li.email::after{
     margin-left: 571px;
     display: block;
     position: relative;
+    top: -444px;
 }
 .title-potable-water-background{
     position: absolute;
-    top: -579px;
+    top: -1100px;
     z-index: -1;
 }
 .brand-wrapper.brand-potable-water .brand-3-screen .our-text .title-potable-water p:first-child{
@@ -1209,4 +1174,169 @@ footer .flex .footer-contact li.email::after{
 }
 .brand-wrapper.brand-potable-water + footer{
     background: radial-gradient(70.68% 6028.78% at 40.34% 29.32%, #3955A2 0%, #031649 100%);
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .prlx-wrap img:nth-child(1){
+    left: 30px !important;
+    top: 400px !important;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .prlx-wrap img:nth-child(2){
+    top: 450px !important;
+    left: 213px !important;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .prlx-wrap img:nth-child(3){
+    left: 1591px !important;
+    top: 726px !important;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .prlx-wrap img:nth-child(4){
+    left: 1730px !important;
+    top: 400px !important;
+}
+.brand-wrapper.brand-potable-water .brand-3-screen .prlx-wrap img:nth-child(5){
+    left: 1942px !important;
+    top: 400px !important;
+}
+@media (max-width: 1199px) {
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+        left: -256px;
+        top: 335px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .beer{
+        width: 700px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 100px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -289px;
+        top: 248px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
+        font-size: 70px;
+        top: 332px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 120px;
+        left: 410px;
+        top: 180px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        background-size: 699px 143px;
+        width: 699px;
+        margin-top: -15px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .potable-water-description{
+        font-size: 20px;
+        top: 385px;
+        left: 576px;
+        padding-left: 103px;
+        padding-right: 24px
+    }
+    
+}
+@media (max-width: 991px) {
+    .page-template-brand-potable-water .brand-page header{
+        height: 60px !important;
+    }
+    .page-template-brand-potable-water .brand-page header .logo-wrap .navbar-brand img{
+        width: 45px !important;
+    }
+    .page-template-brand-potable-water .brand-page header.scroll{
+        height: 60px !important;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .potable-water-description{
+        top: 328px;
+        font-size: 18px;
+        padding-left: 0px;
+        left: 494px;
+        top: 212px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .prlx-wrap{
+        display: none;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .beer{
+        width: 500px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+        left: -179px;
+        top: 400px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 75px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -194px;
+        /* top: 231px; */
+        top: 261px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1{
+        font-size: 90px;
+        left: 184px;
+        top: 75px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1::after
+    {
+        background-size: 499px 143px;
+        width: 499px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen{
+        margin-top: -240px;
+    }
+}
+@media (max-width: 767px) {
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text{
+        left: 0px;
+        top: 210px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
+        top: 146px;
+        left: 0px;  
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+        top: 100px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        background-size: 300px 143px;
+        width: 300px;
+        margin-top: -35px;
+        margin-left: -40px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1{
+        margin-left: 210px;
+        font-size: 50px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .potable-water-description{
+        margin-right: -195px;
+        top: 120px;
+        font-size: 16px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .beer{
+        margin-top: -20px;
+    }
+}
+@media (max-width: 540px) {
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+        left: -342px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1{
+        /* margin-left: 293px; */
+        margin-left: 280px;
+        font-size: 55px;
+        display: block;
+        width: 300px !important;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .span-1::after{
+        display: none;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text .potable-water-description{
+        left: 409px;
+        right: -179.833px;
+        top: 150px;
+        background: #fff;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 65px;
+    }
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper h1 .not-bg-text{
+        font-size: 60px;
+    }
 }
