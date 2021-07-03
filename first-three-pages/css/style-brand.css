@@ -162,7 +162,7 @@ $row and $cell - amount of rows and cells in sprite
         src: url("fonts/font/Coca-Cola-Regular-rus-lat.eot");
         src: url("fonts/font/Coca-Cola-Regular-rus-lat?#iefix") format("embedded-opentype"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff2") format("woff2"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff") format("woff"), url("fonts/font/Coca-Cola-Regular-rus-lat.ttf") format("truetype"), url("fonts/font/Coca-Cola-Regular-rus-lat.svg#ProximaNova-Extrabld") format("svg");
         font-weight: bold;
-        font-style: normal; }    
+        font-style: normal; }
 body {
   margin: 0 auto;
   max-width: 1920px;

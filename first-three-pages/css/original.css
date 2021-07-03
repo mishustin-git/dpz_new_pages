@@ -1420,3 +1420,221 @@ footer .flex .footer-contact li.email::after{
         text-align: center;
     }
 }
+/* zhigulevskoe-draft */
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen{
+    background-image: url("../img/background-zhigulevskoe-draft.png");
+    background-position: center center;
+    height: 759px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .container::before{
+    display: none;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text{
+    left: 68px;
+    top: 163px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text > span{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 84px;
+    line-height: 189px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+    transform: rotate(-90deg);
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
+    left: -366px;
+    top: -5px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
+    left: 346px;
+    top: 131px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
+    background: none;
+    box-shadow:none;
+    width: auto;
+    font-family: "Sitka Small Bold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 84px;
+    color: #36b6ef;
+    display: block;
+    left: 387px;
+    top: 158px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+    top: -71px;
+    left: 309px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+    left: 748px;
+    top: 169px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+    top: 324px;
+    left: 621px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .prlx-wrap img:nth-child(1){
+    left: 997px !important;
+    top: 145px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .prlx-wrap img:nth-child(2){
+    left: 1120px !important;
+    top: 300px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-2-screen{
+    background-image: url("../img/zhigulevskoe-draft-bs2-background.png");
+    background-position: center center;
+    height: 474px;
+}
+.zhigulevskoe-draft-bs2-img1{
+    position: absolute;
+    left: 923px;
+    top: 1004px;
+    z-index: 3;
+}
+.zhigulevskoe-draft-bs2-img2{
+    position: absolute;
+    top: 704px;
+    left: 1089px;
+    z-index: 2;
+}
+.zhigulevskoe-draft-advantage{
+    font-family: "Market Deco [RUS by Daymarius]";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 69px;
+    max-width: 400px;
+    margin-top: 175px;
+    margin-left: 116px;
+}
+.zhigulevskoe-draft-advantage p.white{
+    color:#FFFFFF;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-2-screen .prlx-wrap > img:nth-child(1){
+    left: 246px !important;
+    top: 360px !important;
+    z-index: 2;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-2-screen .prlx-wrap > img:nth-child(2){
+    left: 560px !important;
+    top: 60px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen{
+    z-index: 0;
+    min-height: 660px;
+    height: 660px;
+    background-image: url("../img/zhigulevskoe-draft-bs3-background.png");
+}
+.title-zhigulevskoe-draft{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title-zhigulevskoe-draft-ul{
+    display: block;
+    text-align: center;
+}
+.title-zhigulevskoe-draft-li{
+    display: block;
+    text-align: center;
+    width: 132%;
+    margin-left: -96px;
+    margin-top: 76px;
+    color: #3e3e39;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .our-text{
+    /* margin-left:  */
+    max-width: 785px;
+    margin-top: 130px;
+    margin-left: 579px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen{
+    min-height: 459px;
+    height: 459px;
+    background-image: url("../img/zhigulevskoe-draft-bs4-background.png");
+}
+.img-bottle05{
+    position: absolute;
+    left: 613px;
+    top: 103px;
+}
+.img-bottle1{
+    position: absolute;
+    left: 779px;
+    top: 5px;
+}
+.img-bottle15{
+    position: absolute;
+    top: -31px;
+    left: 918px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak-title{
+    font-size: 16px;
+    margin-left: -67px;
+    margin-bottom: 21px;
+    margin-top: 8px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak table tr td:nth-child(2){
+    font-size: 13px;
+    margin-top: 9px;
+    display: block;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak table tr td span{
+    width: 44px;
+    height: 44px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak table tr td:nth-child(1){
+    font-size: 16px;
+    line-height: 40px;    
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak{
+    margin-left: 41.333%;
+    margin-top: 93px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak table{
+    width: 79%;
+}
+.brand-4-screen-text{
+    position: absolute;
+    left: 18px;
+    top: 13px;
+}
+.brand-4-screen-text img{
+    margin-bottom: 97px;
+}
+.brand-4-screen-text p{
+    font-family: "PartnerCondensed";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+    color: #fff;
+    max-width: 400px;
+    line-height: 42px;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .prlx-wrap > img:nth-child(1){
+    left: 800px !important;
+    top: 15px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .prlx-wrap > img:nth-child(2){
+    left: 680px !important;
+    top: 65px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .prlx-wrap > img:nth-child(3){
+    left: 710px !important;
+    top: 290px !important;
+}
+.brand-wrapper.brand-zhigulevskoe-draft + footer{
+    background: #779528;
+}
