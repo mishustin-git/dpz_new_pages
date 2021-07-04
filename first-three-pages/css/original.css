@@ -1638,3 +1638,340 @@ footer .flex .footer-contact li.email::after{
 .brand-wrapper.brand-zhigulevskoe-draft + footer{
     background: #779528;
 }
+@media (max-width: 1470px) {
+    .zhigulevskoe-draft-bs2-img2{
+        left: 940px;
+    }
+    .zhigulevskoe-draft-bs2-img1{
+        left: 790px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .our-text{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .title-zhigulevskoe-draft-li{
+        width: 100%;
+        margin-left: 0;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .container{
+        background-image: url("../img/zhigulevskoe-draft-our-text-background.png");
+        background-position: center center;
+        height: 100% !important;
+        box-sizing: content-box;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen{
+        padding-bottom: 0;
+    }
+    /* zhigulevskoe-draft-our-text-background.png */
+}
+@media (max-width: 1199px) {
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text{
+        top: 300px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text > span{
+        font-size: 64px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
+        left: -250px;
+        top: 72px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
+        /* 992 */
+        left: 214px;
+        /*  */
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
+        /* 992 */
+        left: 284px;
+        top: 14px;
+        /*  */
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap .content::before{
+        width: 200px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap .content .table-flex .tr .td:nth-child(1){
+        font-size: 18px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 250px;
+        top: -78px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .prlx-wrap img:nth-child(1){
+        left: 897px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .prlx-wrap img:nth-child(2){
+        left: 1020px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+        top: 115px;
+        left: 611px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2 img {
+        width: 150px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        top: 216px;
+        left: 483px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3 img{
+        width: 340px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen{
+        height: 721px;
+    }
+    .zhigulevskoe-draft-bs2-img2{
+        left: 640px;
+        top: 671px;
+    }
+    .zhigulevskoe-draft-bs2-img1{
+        left: 590px;
+    }
+    .brand-4-screen-text p{
+        font-size: 28px;
+        max-width: 350px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak{
+        margin-left: 45.333%;
+    }
+    .img-bottle05{
+        top: 203px;
+        width: 150px;
+        left: 613px;
+    }
+    .img-bottle1{
+        top: 105px;
+        left: 712px;
+        width: 150px;
+    }
+    .img-bottle15{
+        top: 141px;
+        left: 818px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
+        left: 99px;
+        top: 73px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
+        top: 72px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .beer{
+        width: 200px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
+        top: -40px;
+        left: 179px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+        left: 464px;
+        top: 85px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        left: 383px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3 img{
+        width: 290px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+        top: 45px;
+        left: 264px;
+    }
+    .zhigulevskoe-draft-advantage{
+        margin-left: 48px;
+        margin-top: 84px;
+        width: 400px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-2-screen .prlx-wrap > img:nth-child(2){
+        display: none !important;
+    }
+    .zhigulevskoe-draft-bs2-img2{
+        left: 500px;
+        top: 671px;
+    }
+    .zhigulevskoe-draft-bs2-img1{
+        left: 450px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak{
+        margin-left: 55.333%;
+    }
+    .img-bottle05{
+        left: 467px;
+    }
+    .img-bottle1{
+        left: 566px;
+    }
+    .img-bottle15{
+        left: 652px;
+    }
+}
+@media (max-width: 767px) {
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
+        left: 0px;
+        top: 26px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
+        display: none;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text{
+        top: 0px;
+        left: -199px;
+        display: block !important;
+        margin-bottom: -67px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
+        top: -530px !important;
+        left: 228px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 61%;
+        top: 8px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+        left: 413px !important;
+        top: 87px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2 img{
+        width: 125px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        left: 410px !important;
+        top: 203px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3 img{
+        width: 220px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen{
+        min-height: 450px;
+        height: 450px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .our-text{
+        margin-top: 50px;
+    }
+    .brand-4-screen-text img{
+        margin-bottom: 0px;
+    }
+    .brand-4-screen-text p{
+        max-width: 300px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak{
+        margin-top: 187px;
+        margin-left: 15px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-4-screen .pak-title{
+        margin-left: 0px;
+    }
+    .img-bottle05{
+        left: 330px;
+    }
+    .img-bottle1{
+        left: 430px;
+    }
+    .img-bottle15{
+        left: 537px;
+    }
+}
+/*  */
+@media (max-width: 580px) {
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text img{
+        width: 300px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text{
+        left: -166px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
+        top: -554px !important;
+        left: 177px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+        left: 108px !important;
+        top: 58px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2 img{
+        width: 100px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        left: 240px !important;
+        top: 65px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3 img{
+        width: 160px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 93%;
+        top: -102px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen{
+        height: 621px;
+    }
+    .zhigulevskoe-draft-advantage{
+        margin-left: 0px;
+        margin-top: 90px;
+        width: 300px;
+        padding-left: 10px;
+        font-size: 20px;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .zhigulevskoe-draft-bs2-img1{
+        left: 1%;
+        width: 150px;
+        top: 986px;
+    }
+    .zhigulevskoe-draft-bs2-img2{
+        left: 70%;
+        width: 140px;
+        top: 920px;
+    }
+    .img-bottle05{
+        top: 240px;
+        left: 130px;
+    }
+    .img-bottle1{
+        left: 230px;
+        top: 170px;
+    }
+    .img-bottle15{
+        left: 337px;
+        top: 210px;
+    }
+}
+/*  */
+@media (max-width: 460px) {
+    .title-zhigulevskoe-draft img{
+        width: 300px;
+    }
+    .title-zhigulevskoe-draft-ul img{
+        width: 150px;
+    }
+}
+@media (max-width: 400px) {
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .bottle-wrapper .info-wrap{
+        left: auto;
+        top: -102px;
+        right: -300px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        margin-top: 0px !important;
+    }
+    .img-bottle05{
+        top: 280px;
+        left: 90px;
+        width: 100px;
+    }
+    .img-bottle1{
+        left: 160px;
+        top: 220px;
+        width: 100px;
+    }
+    .img-bottle15{
+        left: 224px;
+        top: 280px;
+        width: 100px;
+    }
+}
