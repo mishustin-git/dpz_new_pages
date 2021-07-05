@@ -151,18 +151,19 @@ $row and $cell - amount of rows and cells in sprite
     font-weight: 800;
     font-style: normal; }
     /* new fonts */
-    @font-face {
-      font-family: 'PartnerCondensed';
-      src: url("fonts/font/partnercondensed-bold.eot");
-      src: url("fonts/font/partnercondensed-bold.eot?#iefix") format("embedded-opentype"), url("fonts/font/partnercondensed-bold.woff2") format("woff2"), url("fonts/font/partnercondensed-bold.woff") format("woff"), url("fonts/font/partnercondensed-bold.ttf") format("truetype"), url("fonts/font/partnercondensed-bold.svg#ProximaNova-Extrabld") format("svg");
-      font-weight: bold;
-      font-style: normal; }    
-      @font-face {
-        font-family: 'Coca-Cola Regular rus-lat';
-        src: url("fonts/font/Coca-Cola-Regular-rus-lat.eot");
-        src: url("fonts/font/Coca-Cola-Regular-rus-lat?#iefix") format("embedded-opentype"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff2") format("woff2"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff") format("woff"), url("fonts/font/Coca-Cola-Regular-rus-lat.ttf") format("truetype"), url("fonts/font/Coca-Cola-Regular-rus-lat.svg#ProximaNova-Extrabld") format("svg");
-        font-weight: bold;
-        font-style: normal; }
+@font-face {
+  font-family: 'PartnerCondensed';
+  src: url("fonts/font/partnercondensed-bold.eot");
+  src: url("fonts/font/partnercondensed-bold.eot?#iefix") format("embedded-opentype"), url("fonts/font/partnercondensed-bold.woff2") format("woff2"), url("fonts/font/partnercondensed-bold.woff") format("woff"), url("fonts/font/partnercondensed-bold.ttf") format("truetype"), url("fonts/font/partnercondensed-bold.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: bold;
+  font-style: normal; }    
+@font-face {
+  font-family: 'Coca-Cola Regular rus-lat';
+  src: url("fonts/font/Coca-Cola-Regular-rus-lat.eot");
+  src: url("fonts/font/Coca-Cola-Regular-rus-lat?#iefix") format("embedded-opentype"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff2") format("woff2"), url("fonts/font/Coca-Cola-Regular-rus-lat.woff") format("woff"), url("fonts/font/Coca-Cola-Regular-rus-lat.ttf") format("truetype"), url("fonts/font/Coca-Cola-Regular-rus-lat.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   margin: 0 auto;
   max-width: 1920px;

@@ -499,7 +499,8 @@ footer .flex .footer-contact li.email::after{
         padding-left: 0;
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
-        left: 315px;
+        /* left: 315px; */
+        left: 345px;
         top: 34px;
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen{
@@ -552,6 +553,7 @@ footer .flex .footer-contact li.email::after{
         display: grid;
         grid-template-rows: 100% 100% 100% 100%;
         grid-template-columns: 25% 50%;
+        /* margin-bottom: -105px; */
     }
     .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .beer{
         grid-row: 1/4;
@@ -716,6 +718,13 @@ footer .flex .footer-contact li.email::after{
     .legenda-original-advantage{
         max-width: 300px;
     }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text{
+        margin-left: -68px;
+    }
+    .brand-wrapper.brand-legenda-original .brand-1-screen .bottle-wrapper .info-wrap{
+        left: 305px;
+    }
+
 }
 /* cup-of-light */
 .brand-wrapper.brand-cup-light .brand-1-screen{
@@ -881,7 +890,7 @@ footer .flex .footer-contact li.email::after{
         left: 500px;
     }
     .cup-light-advantage{
-        font-size: 18px;
+        font-size: 24px;
     }
     .brand-wrapper.brand-cup-light .brand-3-screen .our-text{
         max-width: 550px;
@@ -897,7 +906,8 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper h1 .not-bg-text{
         font-size: 100px;
-        left: 220px;
+        /* left: 220px; */
+        left: 244px;
         top: 150px;
     }
     .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text .span-1{
@@ -916,7 +926,8 @@ footer .flex .footer-contact li.email::after{
         top: 153px;
     }
     .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo{
-        left: 575px;
+        /* left: 575px; */
+        left: 606px;
     }
     .brand-wrapper.brand-cup-light .brand-1-screen .brand-1-screen-logo img{
         width: 250px;
@@ -971,7 +982,7 @@ footer .flex .footer-contact li.email::after{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 16px;
+        font-size: 20px;
     }
     .brand-wrapper.brand-cup-light .brand-2-screen .prlx-wrap
     {
@@ -979,6 +990,17 @@ footer .flex .footer-contact li.email::after{
     }
     .cup-light-advantage p:first-child{
         margin-bottom: 25px;
+    }
+    .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
+        margin-bottom: -145px;
+    }
+    .cup-light-advantage p:first-child{
+        margin-bottom: 7px;
+    }  
+ }
+ @media (max-width: 570px){
+    .brand-wrapper.brand-cup-light .brand-2-screen .prlx-wrap > img:nth-child(1){
+        top: 334px !important;
     }
  }
  @media (max-width: 420px) {
@@ -1006,6 +1028,23 @@ footer .flex .footer-contact li.email::after{
     }
     .brand-wrapper.brand-cup-light .brand-1-screen .text-wrapper .dop-text{
         left: -15px;
+    }
+    .brand-wrapper.brand-cup-light .brand-3-screen{
+        min-height: 400px;
+        height: 400px;
+        background-position: bottom right;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .brand-wrapper.brand-cup-light .brand-3-screen .container{
+        height: 100%;
+    }
+    .brand-wrapper.brand-cup-light .brand-3-screen .container .row{
+        height: 100%;
+        background: rgba(236, 188, 152, 0.5);
+    }
+    .cup-light-advantage{
+        font-size: 18px;
     }
  }
  /* potable water */
@@ -1420,6 +1459,22 @@ footer .flex .footer-contact li.email::after{
         text-align: center;
     }
 }
+@media (max-width: 420px) {
+    .brand-wrapper.brand-potable-water .brand-1-screen .text-wrapper .dop-text{
+        margin-left: 0px !important;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .container{
+        height: auto !important;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .container .row{
+        background: none;
+        height: auto;
+    }
+    .brand-wrapper.brand-potable-water .brand-3-screen .our-text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 /* zhigulevskoe-draft */
 .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen{
     background-image: url("../img/background-zhigulevskoe-draft.png");
@@ -1435,6 +1490,7 @@ footer .flex .footer-contact li.email::after{
 }
 .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text > span{
     font-family: "Market Deco [RUS by Daymarius]";
+    letter-spacing: 1px;
     font-style: normal;
     font-weight: normal;
     font-size: 84px;
@@ -1445,7 +1501,7 @@ footer .flex .footer-contact li.email::after{
     transform: rotate(-90deg);
 }
 .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
-    left: -366px;
+    left: -378px;
     top: -5px;
 }
 .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
@@ -1503,24 +1559,32 @@ footer .flex .footer-contact li.email::after{
     z-index: 2;
 }
 .zhigulevskoe-draft-advantage{
-    font-family: "Market Deco [RUS by Daymarius]";
+    font-family: "DINCondensedC";
+    text-transform: none;
+    font-size: 32px;
+    line-height: 100%;
+    max-width: 500px;
+    margin-top: 187px;
+    margin-left: 113px;
+    /* font-family: "Market Deco [RUS by Daymarius]"; */
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 140%;
-    text-transform: uppercase;
+    /* font-size: 24px; */
+    /* line-height: 140%; */
+    /* text-transform: uppercase; */
     color: #000000;
-    max-width: 100%;
+    /* max-width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 69px;
-    max-width: 400px;
-    margin-top: 175px;
-    margin-left: 116px;
+    /* margin-top: 69px; */
+    /* max-width: 400px; */
+    /* margin-top: 175px; */
+    /* margin-left: 116px; */
 }
 .zhigulevskoe-draft-advantage p.white{
     color:#FFFFFF;
+    margin-bottom: -1px;
 }
 .brand-wrapper.brand-zhigulevskoe-draft .brand-2-screen .prlx-wrap > img:nth-child(1){
     left: 246px !important;
@@ -1615,7 +1679,10 @@ footer .flex .footer-contact li.email::after{
     margin-bottom: 97px;
 }
 .brand-4-screen-text p{
-    font-family: "PartnerCondensed";
+    /* font-family: "PartnerCondensed"; */
+    font-family: "DINCondensedC";
+    text-transform: uppercase;
+    margin-left: -3px;
     font-weight: normal;
     font-style: normal;
     font-size: 36px;
@@ -1637,6 +1704,14 @@ footer .flex .footer-contact li.email::after{
 }
 .brand-wrapper.brand-zhigulevskoe-draft + footer{
     background: #779528;
+}
+.brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .title-zhigulevskoe-draft-li{
+    font-family: "DINCondensedC";
+    text-transform: none;
+    margin-top: 53px;
+    width: 100%;
+    margin-left: -1px;
+    line-height: 113%;
 }
 @media (max-width: 1470px) {
     .zhigulevskoe-draft-bs2-img2{
@@ -1662,6 +1737,7 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen{
         padding-bottom: 0;
     }
+    
     /* zhigulevskoe-draft-our-text-background.png */
 }
 @media (max-width: 1199px) {
@@ -1672,7 +1748,8 @@ footer .flex .footer-contact li.email::after{
         font-size: 64px;
     }
     .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
-        left: -250px;
+        /* left: -250px; */
+        left: -262px;
         top: 72px;
     }
     .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .not-bg-text{
@@ -1758,7 +1835,7 @@ footer .flex .footer-contact li.email::after{
     .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper h1 .bg-text{
         top: 72px;
     }
-    .brand-wrapper.brand-legenda-original .brand-1-screen .text-wrapper .dop-text .beer{
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .beer{
         width: 200px !important;
     }
     .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-1{
@@ -1805,6 +1882,9 @@ footer .flex .footer-contact li.email::after{
     }
     .img-bottle15{
         left: 652px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-3-screen .title-zhigulevskoe-draft-li{
+        font-size: 28px;
     }
 }
 @media (max-width: 767px) {
@@ -1913,7 +1993,7 @@ footer .flex .footer-contact li.email::after{
         margin-top: 90px;
         width: 300px;
         padding-left: 10px;
-        font-size: 20px;
+        font-size: 28px;
         text-align: justify;
         margin-right: auto;
         margin-left: auto;
@@ -1939,6 +2019,12 @@ footer .flex .footer-contact li.email::after{
     .img-bottle15{
         left: 337px;
         top: 210px;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-3{
+        margin-top: 0px !important;
+    }
+    .brand-wrapper.brand-zhigulevskoe-draft .brand-1-screen .text-wrapper .dop-text .span-2{
+        margin-top: 0px !important;
     }
 }
 /*  */
